@@ -1,0 +1,72 @@
+/* index.html Hero Part start */
+.logo-style{
+    color: white;
+  }
+  .logo-style:hover{
+    color: #FFC107;
+  }
+  .logo-img{
+    height: 50px;
+    width: 55px;
+  }
+  .navbar {
+    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+  }
+  .main-menu{
+    display: flex;
+    justify-content: flex-end;
+    }
+  .nav-link:focus, .nav-link:hover {
+    color: #fff;
+  }
+  .nav-item a, .list-menu-style a{
+    position: relative;
+    color: #FFC107;
+    padding: 1rem;
+  }
+  .list-menu-style a::after{
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: 0.6s ease-out;
+  }
+  .list-menu-style a:hover::after {
+    left: 8px;
+    right: 0px;
+    width: 80%;
+  } 
+  
+  /* responsive hamburger button */
+  .hambrgr-btn{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+  }
+  .hambrgr-btn span{
+    height: 4px;
+    width: 25px;
+    margin-bottom: 4px;
+    background-color: white;
+  }
+  @media all and (max-width:668px){
+    .main-menu{
+      display: flex;
+      justify-content: flex-start;
+      background: #000;
+      border-radius: 0 0 .5rem .5rem;
+      padding-left: 1rem;
+      }
+    } 
+  /* End of index.html hero Section */

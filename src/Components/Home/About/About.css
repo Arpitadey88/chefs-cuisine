@@ -1,0 +1,25 @@
+.order-bg{
+    background:url(../../../images/processed-food.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.card-footer{
+    background-color: #F17228 !important;
+    box-shadow: 0px 5px 10px rgba(253, 114, 92, 0.22), 0px 20px 40px rgba(250, 99, 35, 0.24);
+    border-radius: 8px !important;
+    transition: .5s;
+}
+.card-footer:hover{
+    background-color: black !important;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.22), 0px 20px 40px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    transition: .5s;
+}
+.text-gradient {
+	background: linear-gradient(to right, red,orange);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

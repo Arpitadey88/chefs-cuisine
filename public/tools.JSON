@@ -1,0 +1,309 @@
+[
+    {
+        "id": "001",
+        "title": "Veg Paneer Pizza",
+        "image": "https://i.ibb.co/bdBm3yM/Veg-Paneer-Pizza.jpg",
+        "varients": [
+            "Small",
+            "Large"
+        ],
+        "price": [
+            {
+                "Small": 200,
+                "Large": 400
+            }
+        ],
+        "category": "Veg",
+        "description": "A topping of spicy barbecue sauce, diced chicken, cilantro, peppers, and onion all covered with cheese"
+    },
+    {
+        "id": "002",
+        "title": "BBQ Pizza",
+        "image": "https://i.ibb.co/4MVCs6y/BBQ-Pizza.jpg",
+        "varients": [
+            "Small",
+            "Large"
+        ],
+        "price": [
+            {
+                "Small": 200,
+                "Large": 400
+            }
+        ],
+        "category": "Nonveg",
+        "description": "A topping of spicy barbecue sauce, diced chicken, cilantro, peppers, and onion all covered with cheese"
+    },
+    {
+        "id": "003",
+        "title": "Chicken Cheese Pizza",
+        "image": "https://i.ibb.co/s3CjFKG/Chicken-Cheese-Pizza.gif",
+        "varients": [
+            "Small",
+            "Large"
+        ],
+        "price": [
+            {
+                "Small": 200,
+                "Large": 400
+            }
+        ],
+        "category": "Nonveg",
+        "description": "A topping of spicy barbecue sauce, diced chicken, cilantro, peppers, and onion all covered with cheese"
+    },
+    {
+        "id": "004",
+        "title": "BBQ Burger",
+        "image": "https://i.ibb.co/yy4rVt4/bbq-burger.jpg",
+        "varients": [
+            "Small",
+            "Large"
+        ],
+        "price": [
+            {
+                "Small": 200,
+                "Large": 400
+            }
+        ],
+        "category": "Nonveg",
+        "description": "A topping of spicy barbecue sauce, diced chicken, cilantro, peppers, and onion all covered with cheese"
+    },
+    {
+        "id": "005",
+        "title": "Tower Burger",
+        "image": "https://i.ibb.co/3NsnSGx/tower-burger.jpg",
+        "varients": [
+            "Small",
+            "Large"
+        ],
+        "price": [
+            {
+                "Small": 200,
+                "Large": 400
+            }
+        ],
+        "category": "Nonveg",
+        "description": "A topping of spicy barbecue sauce, diced chicken, cilantro, peppers, and onion all covered with cheese"
+    },
+    {
+        "id": "006",
+        "title": "Cheese Burger",
+        "image": "https://i.ibb.co/hmYMdQb/burger-chese.jpg",
+        "varients": [
+            "Small",
+            "Large"
+        ],
+        "price": [
+            {
+                "Small": 200,
+                "Large": 400
+            }
+        ],
+        "category": "Nonveg",
+        "description": "A topping of spicy barbecue sauce, diced chicken, cilantro, peppers, and onion all covered with cheese"
+    },
+   
+    {
+        "id": "007",
+        "title": "Chicken Drumstick Fry",
+        "image": "https://i.ibb.co/YDVkdDS/chicken-drumstick-fry.jpg",
+        "varients": [
+            "Small",
+            "Large"
+        ],
+        "price": [
+            {
+                "Small": 200,
+                "Large": 400
+            }
+        ],
+        "category": "Nonveg",
+        "description": "A topping of spicy barbecue sauce, diced chicken, cilantro, peppers, and onion all covered with cheese"
+    },
+    {
+        "id": "008",
+        "title": "Chicken fry",
+        "image": "https://i.ibb.co/HdMMWhm/chicken-fry1.jpg",
+        "varients": [
+            "Small",
+            "Large"
+        ],
+        "price": [
+            {
+                "Small": 200,
+                "Large": 400
+            }
+        ],
+        "category": "Nonveg",
+        "description": "A topping of spicy barbecue sauce, diced chicken, cilantro, peppers, and onion all covered with cheese"
+    },
+    {
+        "id": "009",
+        "title": "Chicken Wings Fry",
+        "image": "https://i.ibb.co/gtPdF38/A-plate-of-buffalo-style-chicken-wings-with-celery-and-blue-cheese-with-a-beer-on-a-bar-or-restauran.jpg",
+        "varients": [
+            "Small",
+            "Large"
+        ],
+        "price": [
+            {
+                "Small": 200,
+                "Large": 400
+            }
+        ],
+        "category": "Nonveg",
+        "description": "A topping of spicy barbecue sauce, diced chicken, cilantro, peppers, and onion all covered with cheese"
+    },
+    {
+        "id": "010",
+        "title": "Tandori Noodles",
+        "image": "https://i.ibb.co/Fb33KhC/chicken-noodles3.jpg",
+        "varients": [
+            "Small",
+            "Large"
+        ],
+        "price": [
+            {
+                "Small": 200,
+                "Large": 400
+            }
+        ],
+        "category": "Nonveg",
+        "description": "A topping of spicy barbecue sauce, diced chicken, cilantro, peppers, and onion all covered with cheese"
+    },
+    {
+        "id": "011",
+        "title": "Chicken Noodles",
+        "image": "https://i.ibb.co/v3FsB4f/chicken-noodles2.jpg",
+        "varients": [
+            "Small",
+            "Large"
+        ],
+        "price": [
+            {
+                "Small": 200,
+                "Large": 400
+            }
+        ],
+        "category": "Nonveg",
+        "description": "A topping of spicy barbecue sauce, diced chicken, cilantro, peppers, and onion all covered with cheese"
+    },
+    {
+        "id": "012",
+        "title": "Chawmin",
+        "image": "https://i.ibb.co/0yG33gw/chawmin.jpg",
+        "varients": [
+            "Small",
+            "Large"
+        ],
+        "price": [
+            {
+                "Small": 200,
+                "Large": 400
+            }
+        ],
+        "category": "Nonveg",
+        "description": "A topping of spicy barbecue sauce, diced chicken, cilantro, peppers, and onion all covered with cheese"
+    },
+    {
+        "id": "013",
+        "title": "Cheese Sandwich",
+        "image": "https://i.ibb.co/9rNS7cX/Cheese-Sandwitch.jpg",
+        "varients": [
+            "Small",
+            "Large"
+        ],
+        "price": [
+            {
+                "Small": 200,
+                "Large": 400
+            }
+        ],
+        "category": "Veg",
+        "description": "A topping of spicy barbecue sauce, diced chicken, cilantro, peppers, and onion all covered with cheese"
+    },
+    {
+        "id": "014",
+        "title": "Grilled Sandwich",
+        "image": "https://i.ibb.co/17N6J4J/Grilled-Sandwitch.jpg",
+        "varients": [
+            "Small",
+            "Large"
+        ],
+        "price": [
+            {
+                "Small": 200,
+                "Large": 400
+            }
+        ],
+        "category": "Nonveg",
+        "description": "A topping of spicy barbecue sauce, diced chicken, cilantro, peppers, and onion all covered with cheese"
+    },
+    {
+        "id": "015",
+        "title": "Chicken Stake",
+        "image": "https://i.ibb.co/hKVwMFT/steak.png",
+        "varients": [
+            "Small",
+            "Large"
+        ],
+        "price": [
+            {
+                "Small": 200,
+                "Large": 400
+            }
+        ],
+        "category": "Nonveg",
+        "description": "A topping of spicy barbecue sauce, diced chicken, cilantro, peppers, and onion all covered with cheese"
+    },
+    {
+        "id": "016",
+        "title": "Combo One",
+        "image": "https://i.ibb.co/cJG7rgN/food-combo1.jpg",
+        "varients": [
+            "Small",
+            "Large"
+        ],
+        "price": [
+            {
+                "Small": 200,
+                "Large": 400
+            }
+        ],
+        "category": "Nonveg",
+        "description": "A topping of spicy barbecue sauce, diced chicken, cilantro, peppers, and onion all covered with cheese"
+    },
+    {
+        "id": "017",
+        "title": "Combo Two",
+        "image": "https://i.ibb.co/phSXLpC/food-combo3.png",
+        "varients": [
+            "Small",
+            "Large"
+        ],
+        "price": [
+            {
+                "Small": 200,
+                "Large": 400
+            }
+        ],
+        "category": "Nonveg",
+        "description": "A topping of spicy barbecue sauce, diced chicken, cilantro, peppers, and onion all covered with cheese"
+    },
+    {
+        "id": "018",
+        "title": "Combo Three",
+        "image": "https://i.ibb.co/xXYbcyc/food-combo4.jpg",
+        "varients": [
+            "Small",
+            "Large"
+        ],
+        "price": [
+            {
+                "Small": 200,
+                "Large": 400
+            }
+        ],
+        "category": "Nonveg",
+        "description": "A topping of spicy barbecue sauce, diced chicken, cilantro, peppers, and onion all covered with cheese"
+    }
+]
