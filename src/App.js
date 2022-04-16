@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
+import AddFood from "./Components/AddFood/AddFood";
 import Home from "./Components/Home/Home/Home";
 import OrderDetails from "./Components/Home/OrderDetails/OrderDetails";
 import Footer from "./Components/Shared/Footer/Footer";
@@ -21,6 +22,9 @@ function App() {
          </Route>
          <Route path="/details/:orderId">
            <OrderDetails></OrderDetails>
+         </Route>
+         <Route path="/addFoods">
+            <AddFood></AddFood>
          </Route>
          <Route path="/">
            <Home></Home>

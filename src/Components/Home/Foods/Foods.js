@@ -12,8 +12,8 @@ const Foods = () => {
     }, [])
     return (
         <div className="container my-5">
-            <div className='row mx-auto px-2'>
-                <h2>this is foods {foods.length}</h2>
+            <div className='row row-cols-2 row-cols-md-4 row-cols-lg-4 g-4 mx-1'>
+                {/* <h2>this is foods {foods.length}</h2> */}
                 {
                     foods.map(food => <FoodItem
                         key={food.id} food={food}>

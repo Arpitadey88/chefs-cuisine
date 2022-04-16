@@ -9,7 +9,8 @@
     align-items: center;
     
 }
- .submit-order form input, textarea{
+ .submit-order form input{
+     margin: 1rem 0;
     width: 80%;
-    border: 1px solid brown;
+    border: 1px solid #323232;
  } 

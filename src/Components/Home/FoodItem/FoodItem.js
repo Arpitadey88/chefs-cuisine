@@ -9,14 +9,14 @@ const FoodItem = (props) => {
     // console.log(props.food);
     const {id, title, image, varients, price } = props.food;
     return (
-        <div style={{ width: '350px' }} className='card border-0 p-0 mx-2 my-3 col-md-4 col-sm-6'>
+        <div style={{ width: '350px' }} className='card border-0 p-0 my-3 col mx-lg-auto'>
             <img className='img-fluid image' style={{
                 height: '15rem'
             }} src={image} alt="" />
             <div className="card-body">
-                <h5>{title}</h5>
-                <div className="row">
-                    <div className="col-md-6 col-sm-6">
+                <h5 className='m-1' >{title}</h5>
+                <div className="d-flex">
+                    <div className="w-100 m-1">
                         <h6>Varients</h6>
                         <select className='form-select' vlaue ={varient} onChange={(e) =>{setVarient(e.target.value)}}>
                             {varients.map(varient => {
@@ -24,7 +24,7 @@ const FoodItem = (props) => {
                             })}
                         </select>
                     </div>
-                    <div className="col-md-6 col-sm-6">
+                    <div className="w-100 m-1">
                         <h6>Quantity</h6>
                         <select className='form-select' vlaue ={quantity} onChange={(e) =>{setQuantity(e.target.value)}}>
                             {[...Array(10).keys()].map((x, i) => {
@@ -40,11 +40,12 @@ const FoodItem = (props) => {
                     </div>
 
                     <div className="w-100 text-center">
-                    <Link to={`/details/${id}`}><button className='btn btn-danger px-4'>Add To Cart</button></Link>
+                    <Link to={`/details/${id}`}><button className='btn btn-danger px-lg-4'>Add To Cart</button></Link>
                     </div>
                 </div>
             </div>
         </div>
+        
     );
 };
 

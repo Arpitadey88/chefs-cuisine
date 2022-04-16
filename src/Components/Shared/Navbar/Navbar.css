@@ -9,64 +9,104 @@
     height: 50px;
     width: 55px;
   }
-  .navbar {
-    font-family: "Poppins", sans-serif;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    height: 60px;
-    padding: 0;
-    margin: 0;
-    background-color: black;
-  }
-  .main-menu{
-    display: flex;
-    justify-content: flex-end;
-    }
+
   .nav-link:focus, .nav-link:hover {
     color: #fff;
   }
-  .nav-item a, .list-menu-style a{
-    position: relative;
-    color: #FFC107;
-    padding: 1rem;
+  .navbar {
+    background: #323232;
+    width: 100%;
+    padding:  0;
   }
-  .list-menu-style a::after{
-    content: '';
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    width: 0%;
-    height: 2px;
-    background-color: white;
-    transition: 0.6s ease-out;
-  }
-  .list-menu-style a:hover::after {
-    left: 8px;
-    right: 0px;
-    width: 80%;
-  } 
   
-  /* responsive hamburger button */
-  .hambrgr-btn{
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-    text-align: center;
-    justify-content: center;
+  /* .navbar-scroll {
+    width: 100%;
+    background-color: rgba(209, 12, 12, 0.767);
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    transition: 0.3s ease-in;
   }
-  .hambrgr-btn span{
-    height: 4px;
-    width: 25px;
-    margin-bottom: 4px;
-    background-color: white;
+  
+  .navbar-scroll .navbar-nav li a {
+    color: #fff;
+  } */
+  
+  .nav-link {
+    margin-right: 0.5rem;
   }
-  @media all and (max-width:668px){
-    .main-menu{
-      display: flex;
-      justify-content: flex-start;
-      background: #000;
-      border-radius: 0 0 .5rem .5rem;
-      padding-left: 1rem;
-      }
-    } 
-  /* End of index.html hero Section */
+  
+  .navbar-nav li {
+    margin: 0 0.6rem;
+    transition: 1s;
+  }
+  
+  .navbar-nav li a {
+    color: #FFC107;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .navbar-nav li a:hover {
+    color: #fff;
+  }
+  /* Responsive Navbar Styles*/
+  .navbar-toggler {
+    border: 0;
+  }
+  
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+  }
+  
+  .toggler-icon {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+  }
+  
+  .middle-bar {
+    margin: 5px auto;
+  }
+  
+  /* State when navbar is opened (START) */
+  .navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  
+  .navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  
+  .navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+  
+  /* State when navbar is collapsed (START) */
+  .navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+  }
+  
+  .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  
+  .navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+  }
+  
+  /* Color of Toggler when collapsed */
+  .navbar-toggler.collapsed .toggler-icon {
+    background-color: #fff;
+  }
+  
